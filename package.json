@@ -1,0 +1,30 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is namaste react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyam372/ReactTut.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "satyam pokharna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyam372/ReactTut/issues"
+  },
+  "homepage": "https://github.com/satyam372/ReactTut#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
