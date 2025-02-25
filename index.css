@@ -2,4 +2,33 @@
 {
     color:red;
 }
-/* fff */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .user-icon {
+    width: 40px;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 5px;
+  }
+  

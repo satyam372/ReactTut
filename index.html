@@ -7,9 +7,16 @@
     <title>Hello world</title>
 </head>
 <body>
-    <div id="root"></div>
-
-    <script type="module" src = './app.js'></script>
+    <div id="root">
+     <h1>'Not render'</h1>
+    </div>
+    <!-- Ep-03 0.17.0
+     Why To write "Not Render in the heading?"
+     => when we root.render() function executes, the content in side div root..
+     ...gets replaced by the react elements.so if we get heading as "Not Render"..
+     ...it means that there was a problem with react render.Ep-03 0.17.0
+    -->
+    <script type="module" src = '/Assignements/assig_ep_03.js'></script>
 <body>
 </html>
 
